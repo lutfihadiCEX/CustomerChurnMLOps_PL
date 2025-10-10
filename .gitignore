@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# Data and MLflow runs
+data/
+mlruns/
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
