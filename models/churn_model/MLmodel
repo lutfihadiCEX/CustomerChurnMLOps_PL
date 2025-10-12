@@ -1,4 +1,4 @@
-artifact_path: file:///c:/MLCourse/mlruns/862355259539856012/models/m-e7bbd0db494f40c3b9d5d9b6b536847f/artifacts
+artifact_path: file:///c:/MLCourse/mlruns/746185112915992874/models/m-e0ac2f9cdd714a258c417ae68020bb0c/artifacts
 flavors:
   python_function:
     env:
@@ -14,9 +14,9 @@ flavors:
     serialization_format: cloudpickle
     sklearn_version: 1.5.1
 mlflow_version: 3.4.0
-model_id: m-e7bbd0db494f40c3b9d5d9b6b536847f
-model_size_bytes: 4138
-model_uuid: m-e7bbd0db494f40c3b9d5d9b6b536847f
+model_id: m-e0ac2f9cdd714a258c417ae68020bb0c
+model_size_bytes: 123417
+model_uuid: m-e0ac2f9cdd714a258c417ae68020bb0c
 prompts: null
-run_id: 00ac7cb26b9d4f15a5b6c021a4f3b347
-utc_time_created: '2025-10-10 13:51:17.573425'
+run_id: a47bc908ab7c498fa42063cc31fffb1c
+utc_time_created: '2025-10-12 17:27:04.759536'
