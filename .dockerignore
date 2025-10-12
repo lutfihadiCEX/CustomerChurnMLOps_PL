@@ -1,0 +1,25 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore local data and mlflow runs (you don’t want these inside the image)
+data/
+mlruns/
+
+# Ignore Git stuff
+.git/
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db

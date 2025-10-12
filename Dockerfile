@@ -1,21 +1,19 @@
-# -------------------------------
-# Dockerfile for Customer Churn MLOps API
-# -------------------------------
-
-# 1️⃣ Base image
+# Use Python base image
 FROM python:3.10-slim
 
-# 2️⃣ Set working directory
+# Set working directory
 WORKDIR /app
 
-# 3️⃣ Copy project files into the container
-COPY . /app
+# Copy requirements first
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
-# 4️⃣ Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy all code + model files
+COPY . .
 
-# 5️⃣ Expose FastAPI port
+# Expose port
 EXPOSE 8000
 
-# 6️⃣ Start the FastAPI app
+# Run the FastAPI app
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+
