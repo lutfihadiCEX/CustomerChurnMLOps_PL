@@ -1,26 +1,26 @@
-# 🧠 Customer Churn Prediction — End-to-End MLOps Project
+#  📉 Customer Churn Prediction — End-to-End MLOps Project
 
 This project demonstrates a **complete MLOps pipeline** for predicting customer churn using machine learning.  
 It covers data preprocessing, model training, experiment tracking, containerization, and CI/CD automation with GitHub Actions and Docker.
 
 ---
 
-## 🚀 Project Overview
+##  🔎 Project Overview
 
 The goal is to build a **production-ready ML pipeline** that predicts whether a customer is likely to churn based on historical behavior and demographic data.
 
 **Key steps implemented:**
-- 🧹 **Data Preprocessing:** Cleaned and encoded categorical features.  
+- 🛠️ **Data Preprocessing:** Cleaned and encoded categorical features.  
 - 🤖 **Model Training:** Trained multiple ML models (Random Forest, XGBoost, Logistic Regression, Gradient Boosting).  
 - 🧾 **Model Tracking:** Used MLflow to log metrics, parameters, and artifacts.  
-- 💾 **Model Packaging:** The best-performing model is saved and versioned in the `churn_model/` directory.  
+- 📦 **Model Packaging:** The best-performing model is saved and versioned in the `churn_model/` directory.  
 - 🌐 **API Deployment:** Served via FastAPI application with Uvicorn.  
 - 🐳 **Containerization:** Dockerized the entire app for consistent deployment.  
-- 🔁 **Automation (CI/CD):** GitHub Actions automatically builds and pushes the latest Docker image to DockerHub on every commit to `main`.
+- 🔄 **Automation (CI/CD):** GitHub Actions automatically builds and pushes the latest Docker image to DockerHub on every commit to `main`.
 
 ---
 
-## 🧰 Tech Stack
+## ☰ Tech Stack
 
 | **Category**          | **Tools / Libraries**                     |
 |------------------------|------------------------------------------|
@@ -36,7 +36,7 @@ The goal is to build a **production-ready ML pipeline** that predicts whether a 
 
 ---
 
-## 📁 Project Structure
+## 🗂️ Project Structure
 
 ```
 customer_churn_mlops/
@@ -58,31 +58,31 @@ customer_churn_mlops/
 
 ---
 
-## 🧪 How to Run Locally
+##  How to Run Locally
 
-### 1️⃣ Clone the repository
+### 1 Clone the repository
 ```bash
 git clone https://github.com/<your-username>/customer_churn_mlops.git
 cd customer_churn_mlops
 ```
 
-### 2️⃣ Install dependencies
+### 2 Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Train the model
+### 3 Train the model
 ```bash
 python Model_CHP.ipynb
 ```
 
-### 4️⃣ Run the FastAPI app
+### 4 Run the FastAPI app
 ```bash
 uvicorn app:app --reload
 ```
 
 Then open:  
-👉 **http://127.0.0.1:8000/docs** — to test the API using Swagger UI.
+ **http://127.0.0.1:8000/docs** — to test the API using Swagger UI.
 
 ---
 
@@ -99,11 +99,11 @@ docker run -p 8000:8000 customer-churn-mlops
 ```
 
 Now open:  
-👉 **http://localhost:8000/docs**
+**http://localhost:8000/docs**
 
 ---
 
-## 📦 Example JSON Request
+##  Example JSON Request
 ```json
 {
   "gender": "Male",
@@ -130,7 +130,7 @@ Now open:
 
 ---
 
-## ⚙️ CI/CD Pipeline Summary
+## ➡️ CI/CD Pipeline Summary
 
 Every push to the `main` branch triggers a GitHub Actions workflow that:
 - Builds the latest Docker image  
@@ -139,7 +139,7 @@ Every push to the `main` branch triggers a GitHub Actions workflow that:
 
 ---
 
-## 👨‍💻 Author
+## 👨🏻‍💻 Author
 
 **Lutfihadi**  
 
