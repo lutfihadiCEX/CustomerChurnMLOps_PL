@@ -57,8 +57,10 @@ customer_churn_mlops/
 ```
 
 ## Dataset
-The dataset used for model training is publicly available on [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn).  
-Users should download the dataset manually and place it in the `data/` directory before running `training.py`.
+The dataset used in this project is publicly available on [Kaggle - Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn).  
+Users should download the dataset manually before running `Model_CHP.ipynb`.
+
+It contains demographic, account, and service-related information for telecom customers, labeled by whether they churned.
 
 ---
 
