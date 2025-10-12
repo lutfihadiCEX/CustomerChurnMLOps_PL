@@ -58,9 +58,11 @@ customer_churn_mlops/
 
 ## Dataset
 The dataset used in this project is publicly available on [Kaggle - Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn).  
-Users should download the dataset manually before running `Model_CHP.ipynb`.
+Users should download the dataset manually before running `Model_CHP.ipynb` in order to run model locally.
 
 It contains demographic, account, and service-related information for telecom customers, labeled by whether they churned.
+
+The dataset is used strictly for educational and research purposes only.
 
 ---
 
@@ -148,5 +150,8 @@ Every push to the `main` branch triggers a GitHub Actions workflow that:
 ## 👨🏻‍💻 Author
 
 **Lutfihadi**  
+
+## Disclaimer
+This project is for research purposes only. 
 
 
