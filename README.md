@@ -42,7 +42,7 @@ The goal is to build a **production-ready ML pipeline** that predicts whether a 
 customer_churn_mlops/
 │
 ├── app.py                  # FastAPI app for model inference
-├── Model_CHP.ipynb                # Model training & MLflow logging
+├── Model_CHP.ipynb         # Model training & MLflow logging
 ├── Dockerfile              # Docker build configuration
 ├── requirements.txt        # Python dependencies
 │
