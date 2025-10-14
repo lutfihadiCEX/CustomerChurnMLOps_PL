@@ -70,7 +70,7 @@ The dataset is used strictly for educational and research purposes only.
 
 ### 1 Clone the repository
 ```bash
-git clone https://github.com/<your-username>/customer_churn_mlops.git
+git clone https://github.com/lutfihadiCEX/customer_churn_mlops.git
 cd customer_churn_mlops
 ```
 
