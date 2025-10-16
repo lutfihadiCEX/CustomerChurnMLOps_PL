@@ -79,7 +79,7 @@ cd CustomerChurnMLOps_PL
 pip install -r requirements.txt
 ```
 
-### 3 Train the model
+### 3 For model training
 ```bash
 python Model_CHP.ipynb
 ```
