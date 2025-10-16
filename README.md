@@ -111,7 +111,7 @@ Now open:
 
 ---
 
-##  Example JSON Request
+##  Example JSON Request (for/predict endpoint)
 
 ```json
 {
