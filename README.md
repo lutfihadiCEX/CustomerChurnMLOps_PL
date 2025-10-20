@@ -161,6 +161,6 @@ Every push to the `main` branch triggers a GitHub Actions workflow that:
 **Lutfihadi**  
 
 ## Disclaimer
-This project is for research purposes only. 
+This project is for research purposes only as part of exploring MLOps tech stacks
 
 
