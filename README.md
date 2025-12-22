@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 ### 3 For model training
 ```bash
-python Model_CHP.ipynb
+jupyter notebook Model_CHP.ipynb
 ```
 
 ### 4 Run the FastAPI app
