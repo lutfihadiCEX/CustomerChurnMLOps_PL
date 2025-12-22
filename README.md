@@ -39,7 +39,7 @@ The goal is to build a **production-ready ML pipeline** that predicts whether a 
 ## 🗂️ Project Structure
 
 ```
-CustomerChurnMLOps_PL/
+customer-churn-mlops/
 │
 ├── app.py                  # FastAPI app for model inference
 ├── Model_CHP.ipynb         # Model training & MLflow logging
@@ -70,8 +70,8 @@ The dataset is used strictly for educational and research purposes only.
 
 ### 1 Clone the repository
 ```bash
-git clone https://github.com/lutfihadiCEX/CustomerChurnMLOps_PL.git
-cd CustomerChurnMLOps_PL
+git clone https://github.com/lutfihadiCEX/customer-churn-mlops.git
+cd customer-churn-mlops
 ```
 
 ### 2 Install dependencies
